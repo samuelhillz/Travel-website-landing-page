@@ -1,0 +1,28 @@
+.wrap{
+    max-width: 1135px;
+    margin: 0 auto;
+}
+.ctn{
+    margin-top: 40px;
+}
+.carousel{
+    padding: 0.5rem 0;
+    
+}
+.carousel img{
+    height: 90vh;
+    object-fit: cover;
+
+}
+.thumbs{
+    display: none;
+}
+.control-dots{
+   background-color: #F0EEED2b
+}
+.control-next{
+    
+}
+.carousel-status{
+    display: none;
+}

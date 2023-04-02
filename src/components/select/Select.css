@@ -1,0 +1,21 @@
+.select{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+.wrapper{
+    margin-top: 4rem;
+}
+@media screen and (max-width:746px) {
+   .select{
+     width: 95%;
+
+
+    display: grid;
+    grid-template-columns: 1fr;
+   
+}
+    
+}

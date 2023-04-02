@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1rem;
+}
+button{
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    border-radius: 8px;
+}

@@ -1,0 +1,117 @@
+.search{
+    max-width: 1100px;
+    margin: 0 auto;
+    
+}
+.containers{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 20px;
+}
+.left h1{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.left p{
+    line-height: 1.5;
+    font-size: 24px;
+}
+.left-ctn h1{
+    margin-top: 10px;
+    font-size: 25px;
+
+}
+.left-ctn h3{
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+.left-ctn p{
+    margin-top: 10px;
+    background-color: lightskyblue;
+    padding: 5px 10px;
+    font-size: 17px;
+    max-width: 150px;
+    text-align: center;
+    cursor: pointer;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.right-top{
+    border: 1px solid #ccc;
+    text-align: center;
+
+}
+.right-top h2{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.right-top h4{
+    margin-top: 10px;
+}
+.right-top p{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    background-color: #333;
+    
+    color: #fff;
+    padding: 9px 0;
+
+}
+label{
+    font-size: 20px;
+}
+select{
+    font-size: 15px;
+}
+input{
+    font-size: 15px;
+}
+.search form{
+    display: flex;
+    flex-direction: column;
+}
+.search .date{
+    display: flex;
+    
+}
+.form{
+    margin-top: 43px;
+}
+.input-wrap{
+    display: flex;
+    flex-direction: column;
+}
+.date{
+    margin-top: 20px;
+}
+.search .p{
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    margin-top: 17px;
+    padding: 10px;
+    background-color: #333;
+    text-transform: uppercase;
+    border-radius: none;
+    color: white;
+}
+
+@media screen and (max-width:900px) {
+    .search{
+        width: 100%;
+    }
+    .containers{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 15px;
+
+}
+
+
+    
+}
